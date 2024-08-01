@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 58);
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85px;
+    background-color: rgb(28, 28, 77);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #a6a2f1;
+    height: 1.3px;
+    margin: 60px 80px;
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0px;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.LeftSection {
+    font-size: 2.5rem;
+    margin-top: 20px;
+
+}
+
+.RightSection img {
+    border-radius: 50%;
+    width: 90%;
+    margin-top: -13px;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
+}
+
+#element {
+    color: rgb(170, 107, 228);
+}
+
+.SecondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.SecondSection h1 {
+    font-size: 1.9rem;
+    color: white;
+    text-align: left;
+}
+
+.SecondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.SecondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 40px;
+    position: relative;
+    top: -44px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 160px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgb(1, 1, 19);
+
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 233px;
+}
+
+.footer-rights {
+    text-align: center;
+    color: grey;
+    padding: 12px;
+}
+
+.LeftSection .btn {
+    padding: 12px;
+    background-color: #1e2167;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.LeftSection .button {
+    padding: 40px 0;
+    
+}
+
+#about {
+    background-color: rgb(1, 1, 58);
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-head{
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+
+}
+
+.About-LeftSection img {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.About-RightSection {
+    height: 500px;
+    width: 520px;
+    border-radius: 30px;
+    margin-top: 70px;
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#responseMessage {
+    margin-top: 20px;
+    text-align: center;
+    color: #d9534f;
+}
+.servicePage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.service-h1{
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.service {
+    background-color: #545475;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(197, 221, 225, 0.1);
+    overflow: hidden;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+.service h2 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.service p {
+    color: white;
+    font-size: 1em;
+}
